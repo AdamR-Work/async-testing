@@ -1,11 +1,20 @@
-function sayHello() {
-    setTimeout( () => console.log("Hello world"), 1000);
-    function sayGoodbye() {
-      console.log("See ya");
+// long way without % 
+const isEven = (num) => {
+    let even = true;
+   
+    for (let i = 0; i < num; i++) {
+      even = !even;
     }
-  
-    console.log("Good Morning");
-    sayGoodbye();
-  }
-  
-  sayHello();
+   
+    return even;
+   };
+
+// more effecient way 
+const isEven = (num) => {
+    if (num % 2 === 0) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  };
