@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "benchmark": "^2.1.4"
-  }
+  },
+  "name": "week-17",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamR-Work/async-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamR-Work/async-testing/issues"
+  },
+  "homepage": "https://github.com/AdamR-Work/async-testing#readme"
 }
